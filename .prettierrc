@@ -1,0 +1,18 @@
+{
+  "semi": false,
+  "arrowParens": "always",
+  "trailingComma": "all",
+  "singleQuote": true,
+  "printWidth": 120,
+  "tabWidth": 2,
+  "overrides": [
+    {
+      "files": "*.vue",
+      "options": {
+        "printWidth": 300,
+        "htmlWhitespaceSensitivity": "ignore",
+        "vueIndentScriptAndStyle": true
+      }
+    }
+  ]
+}

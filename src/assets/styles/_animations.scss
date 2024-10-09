@@ -1,0 +1,15 @@
+.slide-y-500-enter-active,
+.slide-y-500-leave-active {
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide-y-500-leave-to,
+.slide-y-500-enter {
+  max-height: 0;
+}
+
+.slide-y-500-leave,
+.slide-y-500-enter-to {
+  max-height: 500px;
+}

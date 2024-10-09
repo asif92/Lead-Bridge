@@ -1,0 +1,148 @@
+.scrollbar-y {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid #fff;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
+.tnum {
+  font-feature-settings: 'tnum';
+}
+
+
+.colors {
+  --dark: #fafafa;
+  --dark: #ebebeb;
+  --dark: #dbdbdb;
+  --dark: #c4c4c4;
+  --dark: #b3b3b3;
+  --dark: #969696;
+  --dark: #858585;
+  --dark: #6b6b6b;
+  --dark: #575757;
+
+  --dark: #4d4d4d;
+  --dark: #474747;
+  --dark: #404040;
+  --dark: #3b3b3b;
+  --dark: #333333;
+  --dark: #2e2e2e;
+  --dark: #262626;
+  --dark: #1a1a1a;
+  --dark: #0d0d0d;
+
+  --dark: #faf5ff;
+  --dark: #ecd8fd;
+  --dark: #debdfa;
+  --dark: #c995f4;
+  --dark: #b87bea;
+  --dark: #9d59d4;
+  --dark: #8b47c2;
+  --dark: #703c9a;
+  --dark: #5a337a;
+
+  --dark: #dcd2e4;
+  --dark: #c6b6d3;
+  --dark: #b49fc6;
+  --dark: #997cb1;
+  --dark: #8866a3;
+  --dark: #6e5086;
+  --dark: #59416c;
+  --dark: #493659;
+  --dark: #2f2239;
+}
+
+// code added by Asif
+.text-primary
+{
+  color: $primary;
+}
+.text-primary-light
+{
+  color: $primary-light;
+}
+.text-primary-dark
+{
+  color: $primary-dark;
+}
+.text-secondary
+{
+  color: $secondary;
+}
+.text-secondary-light
+{
+  color: $secondary-light;
+}
+.text-secondary-dark
+{
+  color: $secondary-dark;
+}
+
+// backdround classes
+.bg-primary
+{
+  background-color: $primary;
+}
+.bg-primary-light
+{
+  background-color: $primary-light;
+}
+.bg-primary-dark
+{
+  background-color: $primary-dark;
+}
+.bg-secondary
+{
+  background-color: $secondary;
+}
+.bg-secondary-light
+{
+  background-color: $secondary-light;
+}
+.bg-secondary-dark
+{
+  background-color: $secondary-dark;
+}
+
+// border classes
+.border-primary
+{
+  border-color: $primary;
+}
+.border-primary-light
+{
+  border-color: $primary-light;
+}
+.border-primary-dark
+{
+  border-color: $primary-dark;
+}
+.border-secondary
+{
+  border-color: $secondary;
+}
+.border-secondary-light
+{
+  border-color: $secondary-light;
+}
+.border-secondary-dark
+{
+  border-color: $secondary-dark;
+}

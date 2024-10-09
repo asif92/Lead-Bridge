@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+@import "variables";
+@import "reset";
+@import "animations";
+@import "utility";
+
+@import "vendor/flags";
+@import "vendor/swal";
+@import "vendor/vue-select";
+@import "vendor/font-awesome";
+
+@import "vue-good-table/style";
+
+html, body {
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-family: "Roboto",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font-size: 14px;
+	min-width: 320px;
+
+	@apply bg-light-100
+}
+
+
+
+
+// active contact class
+.active-contact
+{
+	@apply bg-primary-300
+}
+
+.tab-content
+{
+	display: none;
+}
+
+.tab-content.active-tab-content
+{
+	display: block;
+}
+.active-tab
+{
+	@apply text-primary font-bold border-b-2
+}
+
+.schedule-btn
+{
+	background-color: #E9C25B;
+}
+
+.create-list-btn
+{
+	background-color: $create-list-btn-bg;
+	color: $create-list-btn-color;
+	border: 2px solid $create-list-btn-color;
+}
+.create-list-btn:focus
+{
+	outline: none;
+}
+.lib-img img{
+	height: 174px !important;
+}
+.added-sequence, added-email{
+  height: 200px;
+  overflow: auto;
+}
+.added-email{
+height: 250px;
+  overflow: auto;	
+}
+
+.all-sequence tbody tr:nth-of-type(even){
+  background-color: $primary-300;
+}
+.voice-img{
+	width: 169px;
+}
